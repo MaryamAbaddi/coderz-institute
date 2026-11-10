@@ -1,0 +1,8 @@
+-Where was each linked opened?
+Answer:
+1)Internal links were opened in the same tab, and the page i started from was replaced by new page we open.
+2)External link it was opened in new tab due "target=_blank", and the page stayed in its own tab.
+
+
+
+
