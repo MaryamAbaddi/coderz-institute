@@ -1,9 +1,0 @@
--what is browser tab element?
-Answer:
-<title></title>
-
--what is main heading element>
-Answer:
-<h1></h1>
-
-
