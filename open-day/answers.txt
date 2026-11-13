@@ -3,3 +3,12 @@ Answer:
 Number 8 appears under Time header, it should appear under visitors header.
 
 
+-After fixing the table, what does number 8 refer to 
+Answer:
+It refer to number of visitors on the evening,using Lab.
+
+-total hours?
+Answer:
+12+8+5=25.
+
+
