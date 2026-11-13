@@ -2,3 +2,8 @@
 Answer:
 href="../index.html, because schedule page lives inside pages folder, and index.html which the main page
 lives inside the parent folder,so to leave the path we need to start by "../".
+
+
+-if we pointed at number 3 , what the cell insidcate/belong to what course?
+Answer:
+It belongs to HTML Content course on tuesday, and it indicate the number of hours.
