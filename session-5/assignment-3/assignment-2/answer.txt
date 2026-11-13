@@ -1,0 +1,4 @@
+-What was the value of href i used to go back to mainPage?
+Answer:
+href="../index.html, because schedule page lives inside pages folder, and index.html which the main page
+lives inside the parent folder,so to leave the path we need to start by "../".
