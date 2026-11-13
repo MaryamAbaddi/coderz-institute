@@ -7,3 +7,18 @@ lives inside the parent folder,so to leave the path we need to start by "../".
 -if we pointed at number 3 , what the cell insidcate/belong to what course?
 Answer:
 It belongs to HTML Content course on tuesday, and it indicate the number of hours.
+
+
+-What happend when clicking on full name label? 
+Answer:
+The Cursor moved into the full name input box.
+
+-What is the diffrence between trying to use fileds with placeholder and value?
+Answer:
+The name placeholder exist to give hint about wht=at to fill the input box , doesnt represnt actual value.
+The seats count is set to value 1 which people can edit or left unchanged because it represnt real value not just hint.
+
+
+-What is the number of seats will be sent now if i submited the form? 
+Answer:
+3,because we changed the value from 1 to 3

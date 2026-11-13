@@ -12,5 +12,41 @@
 				<a href="enquiry.html">الاستفسار</a>
 			</nav>
 		</header>
+		<main>
+			<form>
+				<h2>استفسر عن الكورس</h2>
+				<label for="Full-name">Full name</label>
+				<input type="text" autocomplete="name" name="Fullname" id="Full-name" placeholder="Maryam">
+				<br/>
+				<br/>
+				<label for="Email">Email</label>
+				<input type="email" id="Email" name="email" autocomplete="email">
+				<br/>
+				<br/>
+				<label for="phone-number">Phone-number</label>
+				<input type="tel" id="phone-number" name="phoneNumber" autocomplete="tel">
+				<br/>
+				<br/>
+				<label for="Course-choice">اختر كورس</label>
+				<select id="Course-choice" name="CourseChoice">
+					<option value="">اختر كورس</option>
+					<option value="content">HTML Content</option>
+					<option value="forms">HTML Form</option>
+				</select>
+				<br/>
+				<br/>
+				<label for="seats">عدد المقاعد</label>
+				<input type="number" id="seats" name="seats"  value="1" min="1">
+				<br/>
+				<br/>
+				<label for="Date">التاريخ المفضل</label>
+				<input type="date" id="Date" name="date">
+				<br/>
+				<br/>
+				<label id="Message">نص الاستفسار</label>
+				<textarea id="Message" name="message" row="5"></textarea>
+				<button type="submit">Submit</button>
+			</form>
+		</main>
 	</body>
 </html>
