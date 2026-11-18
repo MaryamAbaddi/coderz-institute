@@ -1,0 +1,16 @@
+-Three mistakes i documented?
+Answer:
+Mistake 1: h2 computed 30px instead of 24px
+Cause: font-size: 1.5em is relative to the card's 20px.
+Fix: changed to 1.5rem.
+Test: Computed shows h2 = 24px, root = 16px, card = 20px.
+
+Mistake 2: h1 and h2 didn't follow --brand
+Cause: typo var(--brnad) and an inline style on the h1.
+Fix: corrected to var(--brand) and removed the inline style.
+Test: changed --brand, both headings changed, then restored it.
+
+Mistake 3: link hover not applied
+Cause: .action :hover has a space, so it didn't match the link.
+Fix: changed to .action:hover.
+Test: the link turns #6845a8 on hover with the mouse and on Tab.
