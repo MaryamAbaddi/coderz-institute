@@ -1,0 +1,37 @@
+-What do expect the colour of h1 to be? and what was it?
+Answer:
+Expectation:I expect the id to specify the colour of h1 , which is purple.
+Reality: id(#course-title) specify the colour , it is purple.
+=>The reason is because id (#course-title) has higher specificity than classess and element selector.
+
+
+-What happened after adding .title {color: orange;} before and after .title {color: green;}?
+Answer:
+before .title {color: green;}: the h1 appeared with green colour.
+after .title {color: green;}: the h1 appeared with orange colour.
+=>That happened due equal specificity so the Source order was applied which is the last rule written always wins.
+
+
+-What CSS rule did you write to make the intro paragraph teal while the "Next class paragraph inherits card color,
+and what did you choose, child combinator or descendant combinator?
+Answer:
+.course-card > p
+{
+	color:teal;
+}
+=> i choosed child combinator over descendant combinator because the intro paragraph is a direct child of .course-card so the child will only colour the intro paragraph
+while descendant will colour all  paragraphs including the nested ones.
+
+
+-what changes was made to link , and what did you notice?
+Answer:
+a:hover
+{
+	color: red;
+}
+=>on hover the link will be red
+a:focus-visible
+{
+	outline: 5px solid #374151;
+}
+=>if we press tab a black outline will appear
