@@ -1,0 +1,44 @@
+Write the href value that link css file in each page,with the page name next to its page?
+Answer:
+index.html:<link rel="stylesheet" href="styles.css">
+courses.html:<link rel="stylesheet" href="../styles.css">
+
+
+Copy the selector from your css file that styles the status of full course?
+Answer:
+article[data-status="full"] .status
+{
+	background-color: var(--backgroundFull);
+}
+
+Explain exactly which element that selector matches?
+Answer:
+1- 
+h1,h2
+{
+	color: var(--brand);
+}
+it targets h1 and h2 
+
+2-
+.course-card 
+{
+	background-color: var(--background);
+}
+this is a class that targets article tags
+
+3-
+article[data-status="full"] .status
+{
+	background-color: var(--backgroundFull);
+} 
+this targets <span class="status"> that sits inside an <article> with data-status="full"
+
+4-
+article[data-status="Open"] .status
+{
+	background-color: var(--backgroundOpen);
+} 
+this targets <span class="status"> that sits inside an <article> with data-status="open"
+
+

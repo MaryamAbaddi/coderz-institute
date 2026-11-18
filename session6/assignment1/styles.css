@@ -1,0 +1,28 @@
+:root
+{
+	--brand:#2a86e9;
+	--background:#0a2e55;
+	--backgroundOpen:#1c9c47;
+	--backgroundFull:#889a99;
+}
+
+
+h1,h2
+{
+	color: var(--brand);
+}
+
+.course-card 
+{
+	background-color: var(--background);
+}
+
+article[data-status="full"] .status
+{
+	background-color: var(--backgroundFull);
+}
+
+article[data-status="open"] .status
+{
+	background-color: var(--backgroundOpen);
+}
