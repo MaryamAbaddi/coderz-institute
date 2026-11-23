@@ -1,0 +1,138 @@
+html
+{
+	background-color:#F1F5F9;
+}
+
+
+main
+{
+	width:100%;
+	padding:24px;
+	margin-inline:auto;
+}
+
+h1, h2, p {
+  margin-block: 0 8px;
+}
+
+.blue-card
+{
+	text-align: right;
+	box-sizing: border-box;
+	background-color:  #FFFFFF;
+	padding: 16px ;
+	margin: 0 auto;
+	border: 1px solid #CBD5E1;
+	border-inline-start: 5px solid #0369A1;
+	border-radius: 12px;
+	max-width:25rem;
+	margin-inline:auto;
+	box-shadow: 0 8px 20px rgba(109, 40, 217, 0.12);
+}
+
+
+.blue-label
+{
+	display: inline-block;
+	background-color: #e0f2fe;
+	color: #0369A1;
+	padding: 2px 20px ;
+	border-radius:8px;
+	font-size: 1.25rem;
+	font-weight:bold;
+
+}
+
+
+h1
+{
+	text-align: center;
+	font-family:"Tajawal", Tahoma, Arial, sans-serif;
+	font-weight: 1000;
+	font-size:3rem;
+	color:#0F172A;
+}
+
+h2
+{
+	font-family:"Tajawal", Tahoma, Arial, sans-serif;
+	font-weight: 1000;
+	font-size:1.5rem;
+	color:#0F172A;
+
+}
+#PP
+{
+	color: #64748B;
+	font-family:"Tajawal", Tahoma, Arial, sans-serif;
+	text-align: center;
+	font-weight: light;
+}
+
+p
+{
+	color: #64748B;
+	font-family:"Tajawal", Tahoma, Arial, sans-serif;
+	font-weight: light;
+}
+
+.blue-button
+{
+	display: inline-block;
+	background-color: #0369A1;
+	color: #FFFFFF ;
+	padding: 4px 16px;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-family: "Tajawal", Tahoma, Arial, sans-serif;
+	text-decoration: none;
+}
+
+
+.green-card
+{
+	text-align: right;
+	box-sizing: border-box;
+	background-color:  #FFFFFF;
+	padding: 16px ;
+	margin: 0 auto;
+	border: 1px solid #CBD5E1;
+	border-inline-start: 5px solid #15803D;
+	border-radius: 12px;
+	max-width:25rem;
+	margin-inline:auto;
+	box-shadow: 0 8px 20px rgba(109, 40, 217, 0.12);
+}
+
+
+.green-label
+{
+	display: inline-block;
+	background-color: #DCFCE7;
+	color: #15803D;
+	padding: 2px 20px ;
+	border-radius:8px;
+	font-size: 1.25rem;
+	font-weight:bold;
+
+}
+
+.green-button
+{
+	display: inline-block;
+	background-color: #15803D;
+	color: #FFFFFF ;
+	padding: 4px 16px;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-family: "Tajawal", Tahoma, Arial, sans-serif;
+	text-decoration: none;
+}
+
+.blue-card,
+.green-card {
+  margin-bottom: 24px;
+}
+
+
+
