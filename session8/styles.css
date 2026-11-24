@@ -1,0 +1,109 @@
+html
+{
+	background-color:#F4F7F8;
+	font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+	padding:16px;
+
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid #FFFFFF;
+	border-radius: 12px;
+	padding: 12px 24px;
+}
+
+#coderz
+{
+	font-size: 2rem;
+}
+
+a 
+{
+	text-decoration: none;
+	font-size: 1.5rem;
+	color:#12546c;
+	font-weight: bold;
+	margin:2px;
+}
+
+h1
+{
+	color:#12546c;
+	text-align: center;
+}
+
+#align
+{
+	text-align: center;
+}
+
+.display
+{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 10;
+
+}
+
+.card
+{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 12px;
+	background-color: #FFFFFF;
+	padding: 34px ;
+	margin: 16px;
+	border: 1px solid #12546c;
+	border-radius: 12px;
+	box-sizing: border-box;
+	width: 30rem;
+  	max-width: 100%;
+}
+
+
+.label
+{
+	background-color: #E5F7E8;
+	color: #12546c;
+	padding: 4px 12px ;
+	border-radius: 10px;
+	font-size: 1.25rem;
+	font-weight: bold;
+	text-align: right;
+	width: fit-content;
+
+}
+
+h3{
+	color: #12546c;
+	font-weight: bold;
+	font-size: 2rem;	
+	margin: 0;
+
+}
+
+p
+{
+	color: #5F6F78;
+	font-size: 1.25rem;
+	font-weight: 500;
+	margin: 0;
+
+}
+
+.button
+{
+	background-color: #12546c;
+	color: #FFFFFF ;
+	padding: 4px 20px ;
+	font-size: 1.5rem;
+	font-weight: bold;
+	border-radius: 8px;
+	text-decoration: none;
+
+}
