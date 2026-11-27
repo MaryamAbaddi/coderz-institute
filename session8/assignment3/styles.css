@@ -1,0 +1,109 @@
+:root {
+  --page-bg: #F5F3FF;
+  --card-bg: #FFFFFF;
+  --primary-btn-text: #FFFFFF;
+  --primary: #6D28D9;
+  --badge-bg: #EDE9FE;
+  --badge-text: #6D28D9;
+  --name: #183B42;
+  --description: #64748B;
+  --card-border: #CBD5E1;
+}
+
+html
+{
+	background-color: var(--page-bg);
+	font-family: "Tajawal", Tahoma, Arial, sans-serif;
+
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+
+.card
+{
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	background-color: var(--card-bg);
+	width:fit-content;
+	gap:1rem;
+	border: 1px solid var(--card-border);
+	border-radius: 12px;
+	margin:0 auto;
+	padding:16px;
+}
+
+img
+{
+	width: 250px;
+	border-radius: 12px;
+}
+
+#name{
+	font-size: 2.5rem;
+	color: var(--name);
+	margin:0
+}
+
+#role
+{
+	display: block;
+	color: var(--badge-text);
+	font-size:1.5rem;
+	margin-bottom: 10px;
+}
+
+p{
+	color: var(--description);
+}
+
+.L-group
+{
+	 margin-bottom: 16px;
+}
+
+.label
+{
+	background-color: var(--badge-bg);
+	color: var(--badge-text);
+	font-size: 1.25rem;
+	font-weight: bold;
+	border-radius: 8px;
+	margin: 0 4px;
+	padding:2px 8px;
+}
+
+.buttons {
+  flex-basis: 100%; 
+  display: flex;
+  gap: 10px;
+}
+
+
+#primary
+{
+	background-color: var(--primary);
+	color: var(--primary-btn-text);
+	border-radius: 12px;
+	text-decoration: none;
+	padding:8px 24px;
+	font-size: 1.15rem;
+}
+
+#secondary
+{
+	background-color: var(--primary-btn-text);
+	color: var(--primary);
+	border: 1px solid var(--primary);
+	border-radius: 12px;
+	text-decoration: none;
+	padding:8px 24px;
+	font-size: 1.15rem;
+}
+
+
+
