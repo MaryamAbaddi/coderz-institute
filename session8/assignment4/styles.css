@@ -1,0 +1,116 @@
+:root {
+  --page-bg: #F8FAFC;
+  --column-bg: #F1F5F9;
+  --card-bg: #FFFFFF;
+  --heading: #0F172A;
+  --description: #64748B;
+  --border: #CBD5E1;
+
+  --todo-bg: #DBEAFE;
+  --todo-text: #1D4ED8;
+
+  --doing-bg: #FEF3C7;
+  --doing-text: #92400E;
+
+  --done-bg: #DCFCE7;
+  --done-text: #166534;
+}
+
+
+html
+{
+	background-color: var(--page-bg);
+	font-family: "Tajawal", Tahoma, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main{
+	  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 16px;
+  padding: 0 16px;
+
+}
+
+h1
+{
+	text-align: center;
+}
+
+.card
+{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+  	max-width: 100%;
+	flex-shrink: 0; 
+	padding: 16px;
+	background-color: var(--column-bg);
+	border: 0.5px solid var(--border);
+	border-radius: 12px;
+	gap: 12px;
+}
+
+.row-dir{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.col-dir
+{
+	display: flex;
+	flex-direction: column;
+	background-color:  var(--card-bg);
+	padding: 0 8px 8px 28px;
+	border: 1px solid var(--border);
+	border-radius: 12px;
+	align-items: flex-start;
+
+}
+
+h3
+{
+	font-weight: 800;
+	color: var(--heading);
+	margin-bottom: 0;
+}
+
+p{
+	color: var(--description);
+	font-size: 0.95rem;
+	margin-top: 0;
+}
+
+#label-blue
+{
+	background-color: var(--todo-bg);
+	color: var(--todo-text);
+	padding: 2px 8px;
+	border-radius: 12px;
+
+}
+
+#label-yellow
+{
+	background-color: var(--doing-bg);
+	color: var(--doing-text);
+	padding: 2px 8px;
+	border-radius: 12px;
+
+}
+
+#label-green
+{
+	background-color: var(--done-bg);
+	color: var(--done-text);
+	padding: 2px 8px;
+	border-radius: 12px;
+
+}
+
+
